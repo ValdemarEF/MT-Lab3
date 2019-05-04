@@ -78,9 +78,7 @@ function initialize()
 
 function update()
 {
-	// update artoolkit on every frame
-	if ( arToolkitSource.ready !== false )
-		arToolkitContext.update( arToolkitSource.domElement );
+	mesh.rotation.y += 0.01;
 }
 
 
